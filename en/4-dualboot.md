@@ -6,7 +6,7 @@
 
 - [M3K Helper](https://github.com/woa-vayu/WoA-Helper-M3K/releases/latest)
 
-- [StA Installer](https://github.com/ivanvorvanin/Port-Windows-XiaoMI-9/raw/main/Files/StA_Installer_vayu.exe)
+- [StA2](https://github.com/ivanvorvanin/Port-Windows-XiaoMI-9/raw/main/Files/sta2.exe)
 
 ## Dualboot guide
 
