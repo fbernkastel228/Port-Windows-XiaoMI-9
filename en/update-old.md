@@ -2,7 +2,7 @@
 
 ### Files/Tools Needed
 
-- [Drivers](https://github.com/woa-vayu/POCOX3Pro-Releases/releases/latest)
+- [Drivers](https://github.com/qaz6750/XiaoMi9-Drivers/releases/latest)
 
 ### Boot into Windows
 >

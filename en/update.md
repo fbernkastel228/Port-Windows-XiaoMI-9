@@ -6,7 +6,7 @@ Modified Recovery:
 
 | File Name                                       | Android version |
 |-------------------------------------------------|-----------------|
-| [ofox.img](https://github.com/woacepheus/Port-Windows-11-Xiaomi-Mi-9/releases/download/recoveries/ofox.img) | Android 12/12.1/13/14 |
+| [ofox.img](https://github.com/ivanvorvanin/Port-Windows-XiaoMI-9/releases/download/recovery/ofox.img) | Android 12/12.1/13/14 |
 
 - [Drivers](https://github.com/woa-vayu/POCOX3Pro-Releases/releases/latest)
 
