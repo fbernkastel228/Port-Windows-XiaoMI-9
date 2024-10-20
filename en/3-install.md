@@ -87,17 +87,17 @@ dism /apply-image /ImageFile:path\to\install.esd /index:6 /ApplyDir:X:\
 
 ### Copying your boot.img into Windows
 
-- Drag and drop the **rooted_boot.img** from the **platform-tools** folder into the **WINVAYU** disk in Windows Explorer, then rename it to **boot.img**.
+- Drag and drop the **rooted_boot.img** from the **platform-tools** folder into the **WINCEPHEUS** disk in Windows Explorer, then rename it to **boot.img**.
 
 ### Installing Drivers
 
 - Unpack the driver archive, then open the `OfflineUpdater.cmd` file
 
-> If it asks you to enter a letter, enter the drive letter of **WINVAYU** (which should be **X**), then press enter
+> If it asks you to enter a letter, enter the drive letter of **WINCEPHEUS** (which should be **X**), then press enter
 
 #### Create Windows bootloader files
 >
-> If any error shows up, such as "Failure when attempting to copy boot files", open `diskpart` again and assign any new letter to **ESPVAYU**, then replace the letter `Y` in the next command with the letter that you just added.
+> If any error shows up, such as "Failure when attempting to copy boot files", open `diskpart` again and assign any new letter to **ESPCEPHEUS**, then replace the letter `Y` in the next command with the letter that you just added.
 
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
@@ -119,10 +119,10 @@ adb reboot bootloader
 
 #### Boot into the UEFI
 >
-> Replace `path\to\vayu-uefi.img` with the actual path of the UEFI image
+> Replace `path\to\cepheus-uefi.img` with the actual path of the UEFI image
 
 ```cmd
-fastboot boot path\to\vayu-uefi.img
+fastboot boot path\to\cepheus-uefi.img
 ```
 
 ### Reboot to Android

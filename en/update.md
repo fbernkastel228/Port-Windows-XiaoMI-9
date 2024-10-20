@@ -36,7 +36,7 @@ diskpart
 
 #### Select the Windows volume of the phone
 >
-> Use `list volume` to find it, replace "$" with the actual number of **WINVAYU**
+> Use `list volume` to find it, replace "$" with the actual number of **WINCEPHEUS**
 
 ```diskpart
 select volume $
@@ -61,7 +61,7 @@ exit
 
 - Unpack the driver archive, then open the `OfflineUpdater.cmd` file
 
-> If it asks you to enter a letter, enter the drive letter of **WINVAYU** (which should be **X**), then press enter
+> If it asks you to enter a letter, enter the drive letter of **WINCEPHEUS** (which should be **X**), then press enter
 
 ### Reboot your device
 >
