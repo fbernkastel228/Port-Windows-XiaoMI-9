@@ -2,11 +2,11 @@
 
 ## Files/Tools Needed
 
-- [UEFI image](https://github.com/woa-vayu/POCOX3Pro-Releases/releases/latest)
+- [UEFI image](https://github.com/qaz6750/XiaoMi9-Drivers/releases/latest)
 
 - [M3K Helper](https://github.com/woa-vayu/WoA-Helper-M3K/releases/latest)
 
-- [StA Installer](https://github.com/woa-vayu/POCOX3Pro-Guides/raw/main/Files/StA_Installer_vayu.exe)
+- [StA Installer](https://github.com/ivanvorvanin/Port-Windows-XiaoMI-9/raw/main/Files/StA_Installer_vayu.exe)
 
 ## Dualboot guide
 
