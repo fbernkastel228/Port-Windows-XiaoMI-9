@@ -8,9 +8,9 @@ Modified Recovery:
 |-------------------------------------------------|-----------------|
 | [ofox.img](https://github.com/ivanvorvanin/Port-Windows-XiaoMI-9/releases/download/recovery/ofox.img) | Android 12/12.1/13/14 |
 
-- [Drivers](https://github.com/woa-vayu/POCOX3Pro-Releases/releases/latest)
+- [Drivers](https://github.com/qaz6750/XiaoMi9-Drivers/releases/latest)
 
-- [UEFI image](https://github.com/woa-vayu/POCOX3Pro-Releases/releases/latest)
+- [UEFI image](https://github.com/qaz6750/XiaoMi9-Drivers/releases/latest)
 
 ### Boot into TWRP
 >
