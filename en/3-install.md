@@ -41,7 +41,7 @@ diskpart
 
 #### Select the Windows volume of the phone
 >
-> Use `list volume` to find it, replace `$` with the actual number of **WINVAYU**
+> Use `list volume` to find it, replace `$` with the actual number of **WINCEPHEUS**
 
 ```diskpart
 select volume $
@@ -55,7 +55,7 @@ assign letter x
 
 #### Select the ESP volume of the phone
 >
-> Use `list volume` to find it, replace `$` with the actual number of **ESPVAYU**
+> Use `list volume` to find it, replace `$` with the actual number of **ESPCEPHEUS**
 ```diskpart
 select volume $
 ```
