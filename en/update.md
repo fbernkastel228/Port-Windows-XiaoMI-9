@@ -10,7 +10,7 @@ Modified Recovery:
 
 - [Drivers](https://github.com/qaz6750/XiaoMi9-Drivers/releases/latest)
 
-- [UEFI image](https://github.com/qaz6750/XiaoMi9-Drivers/releases/latest)
+- [UEFI image](https://github.com/qaz6750/XiaoMi9-Drivers/releases/latest)  (Make sure to select **CepheusDisableSecureBoot.img**) 
 
 ### Boot into TWRP
 >
