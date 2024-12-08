@@ -40,12 +40,12 @@ Modified Recovery:
 cd path\to\platform-tools
 ```
 
-#### Flash the modded recovery
+#### Boot the modded recovery
 >
-> Replace `path\to\moddedtwrp.img` with the actual path to the modded recovery image
+> Replace `path\to\ofox.img` with the actual path to the modded recovery image
 
 ```cmd
-fastboot flash recovery path\to\moddedtwrp.img reboot recovery
+fastboot boot path\to\ofox.img
 ```
 
 #### Backing up your boot image
