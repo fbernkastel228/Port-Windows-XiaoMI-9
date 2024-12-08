@@ -12,12 +12,12 @@ Modified Recovery:
 |-------------------------------------------------|-----------------|
 | [ofox.img](https://github.com/ivanvorvanin/Port-Windows-XiaoMI-9/releases/download/recovery/ofox.img) | Android 12/12.1/13/14 |
 
-### Boot into TWRP
+### Boot the modded recovery
 >
-> If your recovery has been replaced by the stock recovery, flash it again using
+> Replace `path\to\ofox.img` with the actual path to the modded recovery image
 
 ```cmd
-fastboot flash recovery path\to\moddedtwrp.img reboot recovery
+fastboot boot path\to\ofox.img
 ```
 
 #### Backing up your boot image
