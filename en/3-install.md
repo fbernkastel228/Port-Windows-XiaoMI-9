@@ -14,12 +14,12 @@ Modified Recovery:
 
 - [UEFI image](https://github.com/qaz6750/XiaoMi9-Drivers/releases/latest) (Make sure to select **CepheusDisableSecureBoot.img**) 
 
-### Boot into TWRP
+### Boot the modded recovery
 >
-> If your recovery has been replaced by the stock recovery, flash it again using
+> Replace `path\to\ofox.img` with the actual path to the modded recovery image
 
 ```cmd
-fastboot flash recovery path\to\moddedtwrp.img reboot recovery
+fastboot boot path\to\ofox.img
 ```
 
 #### Execute the msc script
