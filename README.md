@@ -17,7 +17,7 @@ This project is in an early stage, all the files here have been contributed by o
 
 - [Project status](https://github.com/qaz6750/XiaoMi9-Drivers/blob/main/Status.md)
 
-- [Installation instructions](en/installation-selection.md)
+- [Installation instructions](en/1-partition.md)
 
 - [Troubleshooting](en/troubleshooting.md)
 
