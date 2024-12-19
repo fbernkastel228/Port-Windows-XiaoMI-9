@@ -43,6 +43,9 @@ diskpart
 >
 > Use `list volume` to find it, replace `$` with the actual number of **WINCEPHEUS**
 
+> [!Note]
+> If you do not see **WINCEPHEUS**, try disabling `MTP` in the **Mount** menu of your recovery
+
 ```diskpart
 select volume $
 ```
