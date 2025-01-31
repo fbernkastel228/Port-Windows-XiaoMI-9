@@ -1,65 +1,45 @@
 # Useful apps and instructions for Windows on Xiaomi Mi 9
 
-## List of supported apps/games
+### List of supported apps/games
+> These are by no means comprehensive lists, they do however list apps/games that have been tested by the community
 
-This is by no means a comprehensive list, it simply lists apps/games that have been tested by the community
-[The link can be found here](https://docs.google.com/spreadsheets/d/1XYuoySgYQE0HL573sA-0RGMX7I4lt5rWJuQ8Z8yRJNY/edit?usp=drivesdk)
+- [Renegade Google Sheets list](https://docs.google.com/spreadsheets/d/1XYuoySgYQE0HL573sA-0RGMX7I4lt5rWJuQ8Z8yRJNY/edit?usp=drivesdk)
 
-You can also find a list of dedicated ARM software [at this link](https://armrepo.ver.lt/)
+- [ARM Repo (native ARM software)](https://armrepo.ver.lt/)
 
-#### Finished
+- [News & supported applications](https://windowsonarm.org/)
 
-## Hide D drive (modem partition)
->
-> [!NOTE]
-> This is recommended because this drive should not be modified, while some applications may try to write to it.
+#### Finished!
 
-- Open a command prompt window and run ```diskpart```
-- Run ```list volume``` to see all available volumes
-- Select the disk that has letter D with ```select volume $```, replacing "$" with the volume number
-- Remove the letter with ```remove letter d```
-- Exit diskpart with ```exit```
+### Set up Android boot.img auto-flashing
 
-##### Finished
+>[!NOTE]
+> Set up Android boot.img auto-flashing on Windows boot or when the battery is low (<15%) to prevent battery dies with uefi.img flashed. 
 
-## Install Microsoft Office / Microsoft 365
+- Download the **boot.img auto-flasher** [here](https://github.com/Misha803/My-Scripts/releases/tag/boot.img-Auto-Flasher).
+- Run it, click **INSTALL** button, select when should Android boot.img be auto-flashed (on Windows boot/Low battery) and wait for installation to complete.
 
-- Download this [ISO file](https://mega.nz/file/dnhQ3Q6b#X0o_B9eEPRa_IaPojQ-z1sLdqMgXkEQXqxfm2P0jL0I) to the tablet
-- Right-click on the iso file and select Mount to open it in explorer
-- Double-click on ```Office Tool Plus.exe``` to start the installation wizard
-- Approve any UAC dialogs
-- In the window that appears, click `Yes` to start installation
-- Wait for the installation to complete
+#### Finished! 
 
-#### Finished
+### Toggling USB host mode
+> [!Warning]
+> Disable USB host mode if you use a powered USB hub, as this can irreversibly damage your device. If you don't use a powered USB hub, enable USB host mode or you will not be able to use any USB devices.
 
-## Activate Windows / Office
+- Run [USB Host Control](https://github.com/Misha803/My-Scripts/releases/tag/USB-Host-Mode-Control) to enable/disable USB host mode, then confirm that you want to disable/enable USB host mode.
+- If USB host mode is currently enabled and USB does not work, turn it off, then back on.
 
-Follow the instructions by Massgravel [here](https://github.com/massgravel/Microsoft-Activation-Scripts)
+#### Finished!
 
-#### Finished
 
-### Making the keyboard float
->
-> [!WARNING]  
-> Make sure these steps are done on the POCO X3 Pro running Windows!
+### Install Microsoft Office
+- Go to [Gravesoft's Office installer page](https://gravesoft.dev/office_c2r_links).
+- Download the installer that fits your purposes. Make sure you select `Online x64`.
+- Open the `setup.exe` and follow any instructions provided within.
 
-- Open CMD as an admin and run ```reg delete HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Scaling /v MonitorSize```
-- Press 'y' then enter
-- Reboot your phone
+#### Finished!
 
-##### Finished
 
-### Disabling USB Host mode
+### Activate Windows / Office
+- Follow the instructions by Massgravel [here](https://github.com/massgravel/Microsoft-Activation-Scripts)
 
-> [!WARNING]
-> Any non powered hub will STOP working!
->
-> Make sure these steps are done on the POCO X3 Pro running Windows!
-
-> This edits the registry key to tell the USB Controller not to put the device into host mode
-
-- In the command prompt put ```reg add "HKLM\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0597\0\Device Parameters" /v RoleSwitchMode /t REG_DWORD /d 3```
-- Reboot your phone
-
-##### Finished
+#### Finished!
