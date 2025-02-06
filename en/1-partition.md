@@ -162,7 +162,7 @@ adb shell partition $
 
 </details>
 
-## [Next step: Rooting your phone](/guide/2-root.md)
+## [Next step: Rooting your phone](/en/2-root.md)
 
 
 
