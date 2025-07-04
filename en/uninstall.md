@@ -16,7 +16,7 @@ Modified Recovery: (new method)
 |-------------------------------------------------|-----------------|
 | [ofox.img](https://github.com/ivanvorvanin/Port-Windows-XiaoMI-9/releases/download/recovery/ofox.img) | Android 12/12.1/13/14 |
 
-- [gpt_both0.bin](https://github.com/n00b69/woa-vayu/releases/download/Files/gpt_both0.bin) (old method)
+- [gpt_both0.bin](https://github.com/fbernkastel228/Port-Windows-XiaoMI-9/raw/refs/heads/main/Files/gpt_both0.bin) (old method)
 
 ## New method
 
